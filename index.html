@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/ccs/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>T.P. Integrador Front</title>
+</head>
+
+<body style="overflow-x: hidden; background-color: rgb(45, 42,42); margin-right: 20px; margin-left: 20px;">
+  <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="margin-left: 60px;"><img src="img/codoacodo.png" alt="logo" width="130px"></a></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: 130%; color: white; text-decoration: none; margin-left: -20px;"
+              aria-current="page" href="#">Conf Bs As</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 120%; color: white; text-decoration: none; margin-left: 260px;"
+              href="#">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 120%; color: gray; text-decoration: none; margin-left: 10px;"
+              href="#">Los
+              oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 120%; color: gray; text-decoration: none; margin-left: 10px;"
+              href="#">El
+              lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 120%; color: gray; text-decoration: none; margin-left: 10px;"
+              href="#">Conviértete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              style="font-size: 125%; color: rgb(17,198,17); text-decoration: none; margin-left: 10px;" href="#">Comprar
+              tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="filter: brightness(50%);">
+        <img src="img/ba1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="filter: brightness(50%);">
+        <img src="img/ba2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="filter: brightness(50%);">
+        <img src="img/ba3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="card-img-overlay"
+        style="font-size: large; color: white; position: absolute; text-align: right; margin-top: 250px; margin-left: 750px; margin-right: 130px;">
+        <h1 class="card-title" style="font-weight: normal;">Conf Bs As</h1>
+        <p class="card-text" style="font-size: large; text-align: right;">Bs As llega por primera
+          vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+          experiencia de los expertos que están creando el futuro de Internet. Ven a conocer
+          miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel
+          que tenemos para ti. Te esperamos! </p>
+        <button type="button" class="btn btn-lg btn-outline-light fw-normal">Quiero ser orador</button>
+        <button type="button" class="btn btn-lg btn-success text-white fw-normal"
+          style="background-color: rgb(17, 198, 17);">Comprar tickets</button>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- CARDS -->
+  <section class="container-card" style="background-color: white;"><br>
+    <h6 class="text-center">CONOCE A LOS</h6>
+    <h3 class="text-center fw-bold">ORADORES</h3><br>
+
+    <div class="row" style="width: auto; margin: auto; justify-content: center;">
+
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <div class="card." style="width: 20rem;">
+          <img src="img/steve.jpg" class="card-img-top" alt="Steve">
+          <div class="card-body">
+            <span class="badge bg-warning float-start">Javascript</span>
+            <span class="badge bg-info float-start">React</span>
+            <h5 class="card-title float-start"
+              style="margin-top: 5px; margin-right: 150px; font-weight: bold; float:inline-start;">Steve Jobs</h5><br>
+            <p class="card-text1" style="font-size: small; text-align: justify;">Empresario, diseñador industrial,
+              magnate empresarial, propietario de medios e
+              inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de
+              The Walt Disney Company.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <div class="card." style="width: 20rem;">
+          <img src="img/bill.jpg" class="card-img-top" alt="Bill">
+          <div class="card-body">
+            <span class="badge bg-warning float-start">Javascript</span>
+            <span class="badge bg-info float-start">React</span>
+            <h5 class="card-title float-start"
+              style="margin-top: 5px; margin-right: 150px; font-weight: bold; float:inline-start;">Bill Gates</h5><br>
+            <p class="card-text1" style="font-size: small; text-align: justify;">Empresario, diseñador industrial,
+              magnate empresarial, propietario de medios e
+              inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de
+              The Walt Disney Company.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <div class="card." style="width: 20rem;">
+          <img src="img/ada.jpeg" class="card-img-top" alt="Ada">
+          <div class="card-body">
+            <span class="badge bg-secondary float-start">Negocios</span>
+            <span class="badge bg-danger float-start">Startups</span>
+            <h5 class="card-title float-start"
+              style="margin-top: 5px; margin-right: 150px; font-weight: bold; float:inline-start;">Ada Lovalace</h5><br>
+            <p class="card-text1" style="font-size: small; text-align: justify;">Matemática y escritora británica,
+              célebre sobre todo por su trabajo acerca
+              de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid">
+    <div class="row" style="width: auto; margin: auto;">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="card.." style="width: 50rem;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-dark text-white" style="max-width: 50%; height: auto;">
+    <img src="img/honolulu.jpg" class="card-img" alt="honolulu">
+    <div class="card-img-overlay."
+      style="width: 98%; font-size: medium; position: absolute; margin-top: 10px; margin-left: 750px; margin-right: 20px;">
+      <h2 class="card-title1" style="font-size: x-large; color: white; font-weight: bold;">Bs As - Octubre</h2>
+      <p class="card-text1" style="font-size: small; text-align: left;">Honolulu, en la costa sur de la isla de Oahu,
+        es la capital de Hawái y la vía de acceso a la cadena de islas de EE.UU. El barrio de Waikiki es un centro de
+        restaurantes, vida nocturna y comercio, famoso por su icónica playa con forma de medialuna bordeada de palmeras
+        y hoteles de muchos pisos y con el cráter volcánico Diamond Head en lo alto a la distancia. Los sitios
+        relacionados con el ataque a Pearl Harbor en la Segunda Guerra Mundial incluyen el USS Arizona Memorial. Primer
+        nivel que tenemos para ti. Te esperamos! </p>
+      <button type="button" class="btn btn-sm btn-outline-light fw-normal">Conocé más</button>
+
+    </div>
+  </div>
+
+  <section class="container-card" style="background-color: white; font: bold;"><br>
+    <h6 class=" text-center">CONVIÉRTETE EN UN</h6>
+    <h3 class="text-center fw-bold">ORADOR</h3>
+    <H6 class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar</H6><br>
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-4">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        </div>
+        <div class="col col-lg-4">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-8">
+          <label for="exampleFormControlTextarea1" class="form-label"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="¿Sobre qué quieres hablar?"
+            rows="3"></textarea>
+          <p class="text-secondary">Recuerda incluír un título para tu charla</p>
+        </div>
+        <div class="row-cols-lg-2 text-lg-center">
+          <button type="button" class="btn btn-success" style="background-color: yellowgreen;">Enviar</button>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="container-fluid">
+      <div class="row p-5 row-cols-xxl-auto justify-content-center"
+        style="background-color: rgb(11, 54, 79); color: white; font-size:medium;">
+        <div class="col-xs-12 col-md-6 col-lg-3"> Preguntas frecuentes</div>
+        <div class="col-xs-12 col-md-6 col-lg-3"> Contáctanos</div>
+        <div class="col-xs-12 col-md-6 col-lg-3"> Prensa</div>
+        <div class="col-xs-12 col-md-6 col-lg-3"> Conferencias</div>
+        <div class="col-xs-12 col-md-6 col-lg-3"> Términos y Condiciones</div>
+        <div class="col-xs-12 col-md-6 col-lg-3"> Privacidad</div>
+        <div class="col-xs-12 col-md-6 col-lg-3"> Estudiantes</div>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>
